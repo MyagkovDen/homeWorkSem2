@@ -25,5 +25,11 @@ if (99 < number && number < 1000)
     int b = a % 10;
     Console.WriteLine($"{number} -> {b}");
 }
+else if(-1000 < number && number < -99)
+{
+    int a = number / 10;
+    int b = a % 10;
+    Console.WriteLine($"{number} -> {-b}");
+}
 else
 Console.WriteLine("Ошибка ввода! Введенное число не является трехзначным");
